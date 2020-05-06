@@ -1,0 +1,55 @@
+<!--Atributos-->
+<!-- <etiqueta atributo="valor" -->
+<!-- Atributos básicos -->
+<!-- Atributos para internacionalización -->
+<!-- Atributos de evento -->
+<!-- Atributos de foto -->
+<!-- Atributos personalizados -->
+
+<!doctype HTML>
+<html Lang="es" dir="auto">
+    <head>
+        <title>Atributos</title>
+        <meta charset="UTF-8">
+        <style>
+            li[data-user="user"]{
+                color: red;
+            }
+            li[data-user="admin"]{
+                color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            
+        </header>
+        <nav role="navegacion">
+            <ul onclick="alert('Hola')">
+                <il>Item 1</il>
+                <il>Item 2</il>
+                <il>Item 3</il>
+            </ul>
+        </nav>
+        <main role="navegacion principal">
+            <p class="Parrafo">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Laborum consequuntur explicabo itaque consequatur minus non
+                tempore vitae earum reprehenderit.
+                Sunt illum exercitationem velit ea vitae quis aperiam porro
+                consequuntur sapiente.
+            </p>
+        </main>
+
+        <input type="text" >
+
+        <nav role="navegacion">
+            <ul onclick="alert('Hola')">
+                <li>Item 1</li>
+                <li data-user="user">Item 2</li>
+                <li data-user="admin">Item 3</li>
+            </ul>
+        </nav>
+
+    </body>
+</html>
